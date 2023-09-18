@@ -94,6 +94,7 @@ img{
 }
 
 main{
+  height: fit-content;
   flex:1;
 }
 
