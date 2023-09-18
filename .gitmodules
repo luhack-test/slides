@@ -1,0 +1,3 @@
+[submodule "themes/slideout"]
+	path = themes/slideout
+	url = https://github.com/MaxAFriedrich/slideout

@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-gb'
+title = 'LUHack Slides'
+theme = "slideout"
+
+[Params]
+  logo = "<Logo Path>"
+  author = "LUHack"
+  highlightColor = "red"
+
+[markup.highlight]
+  codeFences = true
+  guessSyntax = true
+  hl_Lines = ""
+  lineNoStart = 1
+  lineNos = true
+  lineNumbersInTable = true
+  tabWidth = 4
+  noClasses = false
+  pygmentsUseClasses = true
+  pygmentsCodefences = true
+
+[markup.goldmark.renderer]
+  unsafe = true
