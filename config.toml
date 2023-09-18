@@ -1,12 +1,12 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://slides.luhack.uk'
 languageCode = 'en-gb'
 title = 'LUHack Slides'
 theme = "slideout"
 
 [Params]
-  logo = "<Logo Path>"
+  logo = "/img/luhack_logo.svg"
   author = "LUHack"
-  highlightColor = "red"
+  highlightColor = "#b5111a"
 
 [markup.highlight]
   codeFences = true

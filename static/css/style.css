@@ -1,0 +1,169 @@
+@import url(https://fonts.bunny.net/css?family=saira-extra-condensed:700);
+/*---------------- Base -------------*/
+
+:root{
+  --text: #ddd;
+  --headings: #ccc;
+  --bg: #111;
+  --bg1: #222;
+}
+html{
+  height: 100%;
+}
+
+body{
+  margin:0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  height:100%;
+}
+
+header{
+ background-color: var(--bg1); 
+  margin: 0;
+  display: flex;
+  padding:1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slideHeader{
+  background-color: inherit;
+  height:3rem;
+}
+
+.header-logo{
+  max-width:75vw;
+  display: block;
+}
+
+.masthead{
+  display: flex;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+  margin: 0 1rem;
+  padding: 0;
+}
+
+header a{
+  color: var(--text)
+}
+
+img{
+  max-width:100%;
+}
+
+#modeToggle{
+  width: fit-content;
+  padding:0.1rem;
+  display:none;
+  width: fit-content;
+  height:fit-content;
+  align-items: center;
+  user-select: none;
+}
+
+#modeToggle svg{
+  border-radius: 0.3rem;
+  padding:0.3rem;
+  cursor: pointer;
+}
+
+#modeToggle span{
+  cursor:default;
+}
+
+#movePrevious, #moveNext, #slideState{
+  display: none;
+}
+
+.article-meta{
+  text-align: center;
+}
+
+.article-meta h2{
+  font-size: 1.2rem;
+}
+
+main{
+  flex:1;
+  height:100%;
+}
+
+article{
+  max-width: 100ch;
+  margin:auto;
+}
+
+.articleSlides{
+  height: calc(100vh - 7rem);
+  width: 95%;
+  max-width:100%;
+  overflow-y: auto;
+}
+
+.articleSlides .chroma{
+  font-size: 2rem;
+}
+
+.articleSlides h1,.articleSlides h2, .articleSlides h3, .articleSlides h4, .articleSlides h5, .articleSlides h6{
+  font-size: 3.3;
+  font-weight: 600;
+}
+
+footer{
+ background-color: var(--bg1); 
+  padding:1rem;
+  margin-top: 1rem;
+  display:flex;
+flex-direction: row;
+    justify-content: center;
+}
+
+/*-------------- Elements --------------*/
+
+
+a{
+  text-decoration: none;
+  color: var(--hl1);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Saira Extra Condensed", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--headings);
+}
+
+
+
+hr{
+  display: none;
+}
+
+.chroma{
+  overflow: auto;
+}
+
+/*--------------- Dynamic -------------- */
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--text: #111;
+    --headings:#333;
+    --bg: #fff;
+    --bg1: #ddd;
+  }
+}
