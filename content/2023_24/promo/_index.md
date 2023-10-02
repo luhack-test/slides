@@ -41,6 +41,7 @@ margin-top:2rem;
 - Weekly sessions teaching ethical hacking\.
 - Member’s only access to custom lab machines to practice on\, and access to on\-demand Kali VMs\.
 - Join our competitive hacking team and compete in CTFs
+- Free (just turn up)!
 
 ---
 
