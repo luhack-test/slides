@@ -65,9 +65,9 @@ We now have some potential attack vectors\.
 
 # We also get a location...
 
-Well\, now we know exactly wherethis image was taken\.
+Well\, now we know exactly where this image was taken\.
 
-Most phones have locational dataturned on by default\.
+Most phones have locational data turned on by default\.
 
 <img src="../img/recon657.webp" alt="" style="
 height: 20rem;
@@ -89,7 +89,8 @@ We now know:
 - The OS running on that device
 - The default apps on the device 
 - Information on a target’s locational behaviour
-- They like McDonald’sThey are willing to spend 99p on a pickle slice
+- They like McDonald’s
+- They are willing to spend 99p on a pickle slice
 
 
 ---
@@ -253,7 +254,7 @@ To understand this\, we must understand how TCP connections are handled\.
 
 # How does TCP actually work?
 
-TCP Connections are established with a Three\-Way HandshakeTo make a connection\, all three of these packets must be sent and received by the correct hosts\.See diagram\.
+TCP Connections are established with a Three\-Way Handshake. To make a connection\, all three of these packets must be sent and received by the correct hosts\.
 
 <img src="../img/recon662.webp" style="
 height: 30rem;
@@ -265,7 +266,7 @@ height: 30rem;
 
 # TCP SYN revisited
 
-Now we know how connections are made\, let's look at SYN again\. SYN scans allow us to be stealthy as they don’t allow the Three\-Way Handshake to complete\, but we still get a response from the target\.To achieve this\, we introduce a RST packet\.
+Now we know how connections are made\, let's look at SYN again\. SYN scans allow us to be stealthy as they don’t allow the Three\-Way Handshake to complete\, but we still get a response from the target\. To achieve this\, we introduce a RST packet\.
 
 <img src="../img/recon663.webp" style="
 height: 30rem;
