@@ -23,9 +23,15 @@ Can be passive or active\.
 
 # Passive Recon
 
-Trying to gain information on a target system without ever actually engaging directly with that system\. Includes:
+Trying to gain information on a target system without ever actually engaging directly with that system\. 
 
-Finding IP’s and SubdomainsIdentifying people related to targetIdentifying potential attack vectorsIdentifying possible interesting information to accessLooking for utilized technologies
+Includes:
+
+- Finding IP’s and Subdomains
+- Identifying people related to target
+- Identifying potential attack vectors
+- Identifying possible interesting information to access
+- Looking for utilized technologies
 
 
 ---
@@ -37,7 +43,7 @@ Finding IP’s and SubdomainsIdentifying people related to targetIdentifying pot
 
 Let’s do some passive recon on this image
 
-By the way\, this is what happens when youorder a cheeseburger with everythingremoved but the pickle\.
+By the way\, this is what happens when you order a cheese burger with everything removed but the pickle\.
 
 
 ---
@@ -47,7 +53,7 @@ By the way\, this is what happens when youorder a cheeseburger with everythingre
 
 So now we know the device the person is using
 
-We can now assume what the OS is and somedefault software that might be running on thisdevice\.
+We can now assume what the OS is and some default software that might be running on this device\.
 
 We now have some potential attack vectors\.
 
@@ -79,7 +85,11 @@ height: 10rem;
 
 We now know:
 
-The target’s deviceThe OS running on that deviceThe default apps on the deviceInformation on a target’s locational behaviourThey like McDonald’sThey are willing to spend 99p on a pickle slice
+- The target’s device
+- The OS running on that device
+- The default apps on the device 
+- Information on a target’s locational behaviour
+- They like McDonald’sThey are willing to spend 99p on a pickle slice
 
 
 ---
@@ -87,9 +97,14 @@ The target’s deviceThe OS running on that deviceThe default apps on the device
 
 # Active Reconnaissance
 
-Trying to gain information on a target system while directly interacting with this system\. Includes:
+Trying to gain information on a target system while directly interacting with this system\. 
 
-Port and service scanningActively investigating a physical siteActively interacting with a human targetPhishing emails
+Includes:
+
+- Port and service scanning
+- Actively investigating a physical site
+- Actively interacting with a human target
+- Phishing emails
 
 
 ---
@@ -110,7 +125,7 @@ Port and service scanningActively investigating a physical siteActively interact
 
 # Network protocols
 
-Built on top of IP are many layer 4 protocols\, though the vast majority of internet traffic is Transmission Control Protocol and User Datagram Protocol\.
+Built on top of IP are many layer 4 protocols\, though the vast majority of internet traffic is **Transmission Control Protocol** and **User Datagram Protocol**\.
 
 Both TCP and UDP introduce the concept of source and destination ports\, numbers between `1` and `65535` that act to disambiguate packets being sent between two computers\.
 
@@ -166,7 +181,9 @@ height: 30rem;
 ---
 
 
-![](../img/recon661.webp)
+<img src="../img/recon661.webp" style="
+height: 30rem;
+">
 
 
 ---
@@ -213,7 +230,12 @@ Scan all ports (really slow)
 
 # Connect vs Syn
 
-You will probably have noticed two types of TCP scan\.TCP ConnectTCP SynBoth of these scans are very different\, and you will want to use them both for different scenarios\.
+You will probably have noticed two types of TCP scan\.
+
+- TCP Connect
+- TCP Syn
+
+Both of these scans are very different\, and you will want to use them both for different scenarios\.
 
 
 ---
@@ -221,7 +243,7 @@ You will probably have noticed two types of TCP scan\.TCP ConnectTCP SynBoth of 
 
 # TCP SYN - The stealthy boi
 
-The SYN scan is the default scan Nmap will perform if no options are specified\.It is fast\, stealthy and often ignored by firewallsThe reason SYN is so stealthy is because it never fully completes a TCP Connection to the target machine\.
+The SYN scan is the default scan Nmap will perform if no options are specified\. It is fast\, stealthy and often ignored by firewalls. The reason SYN is so stealthy is because it never fully completes a TCP Connection to the target machine\.
 
 To understand this\, we must understand how TCP connections are handled\.
 
@@ -233,7 +255,9 @@ To understand this\, we must understand how TCP connections are handled\.
 
 TCP Connections are established with a Three\-Way HandshakeTo make a connection\, all three of these packets must be sent and received by the correct hosts\.See diagram\.
 
-![](../img/recon662.webp)
+<img src="../img/recon662.webp" style="
+height: 30rem;
+">
 
 
 ---
@@ -241,10 +265,11 @@ TCP Connections are established with a Three\-Way HandshakeTo make a connection\
 
 # TCP SYN revisited
 
-Now we know how connections are made\, let's look at SYN again\.SYN scans allow us to be stealthy as they don’t allow the Three\-Way Handshake to complete\, but we still get a response from the target\.To achieve this\, we introduce a RST packet\.
+Now we know how connections are made\, let's look at SYN again\. SYN scans allow us to be stealthy as they don’t allow the Three\-Way Handshake to complete\, but we still get a response from the target\.To achieve this\, we introduce a RST packet\.
 
-![](../img/recon663.webp)
-
+<img src="../img/recon663.webp" style="
+height: 30rem;
+">
 
 ---
 
@@ -297,8 +322,9 @@ Add “exploit” at the end of a service name and version number and you’ll b
 
 Port No\. & Transport Protocol\, Service Running\, Version of Service
 
-![](../img/recon664.webp)
-
+<img src="../img/recon664.webp" style="
+height: 30rem;
+">
 
 ---
 
@@ -323,5 +349,6 @@ Use the /infra join command or click one of the buttons we’ll shortly be posti
 
 Try and solve the challenges located at  _[https://scc\-luhack\.lancs\.ac\.uk/challenges/tag/session1](https://scc-luhack.lancs.ac.uk/challenges/tag/session1)_
 
-![](../img/recon665.webp)
-
+<img src="../img/recon665.webp" style="
+height: 30rem;
+">
