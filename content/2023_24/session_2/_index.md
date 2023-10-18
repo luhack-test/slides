@@ -5,7 +5,7 @@ title: "Enumeration"
 
 # Enumeration
 
-![](./img/enum772.webp)
+![](./img/pikachu_detective.jpeg)
 
 ---
 
@@ -85,9 +85,19 @@ Download with `smbmap -H <ip> -u <user> [-p <pass>] --download ‘.\\Folder\\Fil
 
 # Website enumeration
 
-The `dirb` command of kali can be used to try many common sub\-pages of websites\.
 
-![](./img/enum779.webp)
+<div style="display: grid; grid-columns: auto auto">
+<div style="grid-column: 1/2">
+The `dirb` command of kali can be used to try many common sub\-pages of websites\.
+<img src="./img/enum779.webp" style="padding-top: 3em;"/> 
+</div>
+<div style="grid-column: 2/3">
+<div style="display: flex; justify-content: center;padding:3em">
+<img src="./img/pinata.gif" height="400px"/><br>
+</div>
+<i>Be aware that this isn't particularly stealthy and you're also tapping in the dark </i>
+</div>
+</div>
 
 Sometimes website authors think that adding a directory to the robots\.txt file
 \(intended to instruct good\-faith bots what not to scan\) prevents malicious people accessing their private pages\.
@@ -148,6 +158,8 @@ Transfer an entire zone file, can reveal ALL records 😎
 `dig @server axfr domain.com`
 
 ![](./img/enum784.webp)
+
+![](./img/digging.jpg)
 
 ---
 
@@ -239,7 +251,7 @@ _[https://haveibeenpwned\.com/](https://haveibeenpwned.com/)_
 
 ---
 
-# Practical
+# Lets start hacking
 
 CTF style challenges on:  _[https://scc\-luhack\.lancs\.ac\.uk/challenges/tag/enum](https://scc-luhack.lancs.ac.uk/challenges/tag/enum)_
 Machines:  \(check \#session\-resources for join links\, \#lab\-instructions for guide\)
@@ -249,4 +261,7 @@ luhack-enum-0: `100.96.62.36`
 win-enum-0: `100.67.12.43`
 
 Something I forgot to mention last week: If you’re using our VM service you already have access to all the lab machines inside the VM\, and don’t need to join them\.
+
+![Now lets get hacking!](./img/hacker-pc.gif)
+
 
