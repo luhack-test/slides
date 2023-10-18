@@ -5,7 +5,7 @@ title: "Enumeration"
 
 # Enumeration
 
-![](../img/enum772.webp)
+![](./img/enum772.webp)
 
 ---
 
@@ -31,8 +31,8 @@ This gathered information is then used to assist with and enable exploitation of
 
 Number of ways to enumerate users:
 
-![](../img/enum773.webp)
-![](../img/enum774.webp)
+![](./img/enum773.webp)
+![](./img/enum774.webp)
 
 Some websites will give a different response when trying to log in with a user that doesn’t exist, and an incorrect password for a user that does exist.
 
@@ -40,7 +40,7 @@ Some websites will give a different response when trying to log in with a user t
 
 Another way to enumerate users:
 
-![](../img/enum775.webp)
+![](./img/enum775.webp)
 
 Many tools exist to discover valid users
 
@@ -65,9 +65,9 @@ _[https://labs\.portcullis\.co\.uk/tools/enum4linux/](https://labs.portcullis.co
 
 # Enum4Linux
 
-![](../img/enum776.webp)
+![](./img/enum776.webp)
 
-![](../img/enum777.webp)
+![](./img/enum777.webp)
 
 ---
 
@@ -79,7 +79,7 @@ Enumerate with `smbmap -H <ip> -u <user> [-p <pass>] -R`
 
 Download with `smbmap -H <ip> -u <user> [-p <pass>] --download ‘.\\Folder\\File’`
 
-![](../img/enum778.webp)
+![](./img/enum778.webp)
 
 ---
 
@@ -87,12 +87,12 @@ Download with `smbmap -H <ip> -u <user> [-p <pass>] --download ‘.\\Folder\\Fil
 
 The `dirb` command of kali can be used to try many common sub\-pages of websites\.
 
-![](../img/enum779.webp)
+![](./img/enum779.webp)
 
 Sometimes website authors think that adding a directory to the robots\.txt file
 \(intended to instruct good\-faith bots what not to scan\) prevents malicious people accessing their private pages\.
 
-![](../img/enum780.webp)
+![](./img/enum780.webp)
 
 ---
 
@@ -110,13 +110,13 @@ As an example we will use lancaster\.ac\.uk
 
 Brute force approach\, queries many different APIs for subdomains\, optionally resolves the IPs these domains point to\.
 
-![](../img/enum781.webp)
+![](./img/enum781.webp)
 
 ---
 
 # Subdomains from Certs
 
-![](../img/enum782.webp)
+![](./img/enum782.webp)
 
 ---
 
@@ -131,7 +131,7 @@ Brute force approach\, queries many different APIs for subdomains\, optionally r
 
 ---
 
-![](../img/enum783.webp)
+![](./img/enum783.webp)
 
 ---
 
@@ -147,17 +147,17 @@ Transfer an entire zone file, can reveal ALL records 😎
 
 `dig @server axfr domain.com`
 
-![](../img/enum784.webp)
+![](./img/enum784.webp)
 
 ---
 
-![](../img/enum785.webp)
+![](./img/enum785.webp)
 
 We can also just use online services\, such as virustotal
 
 ---
 
-![](../img/enum786.webp)
+![](./img/enum786.webp)
 
 Wow\, look at all this\. There has to besomething interesting in here\.
 
@@ -165,13 +165,13 @@ wait\.\.\.
 
 ---
 
-![](../img/enum787.webp)
+![](./img/enum787.webp)
 
-![](../img/enum788.webp)
+![](./img/enum788.webp)
 
 ---
 
-![](../img/enum789.webp)
+![](./img/enum789.webp)
 
 That was easy
 Now\, what can we do with an SMTP server?
@@ -195,7 +195,7 @@ VRFY = Verify \- if valid user given\, returns code 250\,251\,252\. Will return 
 
 \*Lots\* of wordlists on Kali in `/usr/share/wordlists`
 
-![](../img/enum790.webp)
+![](./img/enum790.webp)
 
 ---
 
