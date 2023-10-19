@@ -1,7 +1,19 @@
 ---
-layout: default
+layout: single
 title: "Enumeration"
 ---
+
+<style>
+img{
+    height:70vh;
+}
+
+p.slide-index-18:nth-child(75) > img:nth-child(1){
+height:20vh !important;}
+
+p.slide-index-19:nth-child(75) > img:nth-child(1){
+height:20vh !important;}
+</style>
 
 # Enumeration
 
@@ -86,6 +98,7 @@ Download with `smbmap -H <ip> -u <user> [-p <pass>] --download ‘.\\Folder\\Fil
 # Website enumeration
 
 
+<div>
 <div style="display: grid; grid-columns: auto auto">
 <div style="grid-column: 1/2">
 The `dirb` command of kali can be used to try many common sub\-pages of websites\.
@@ -98,6 +111,9 @@ The `dirb` command of kali can be used to try many common sub\-pages of websites
 <i>Be aware that this isn't particularly stealthy and you're also tapping in the dark </i>
 </div>
 </div>
+</div>
+
+---
 
 Sometimes website authors think that adding a directory to the robots\.txt file
 \(intended to instruct good\-faith bots what not to scan\) prevents malicious people accessing their private pages\.
