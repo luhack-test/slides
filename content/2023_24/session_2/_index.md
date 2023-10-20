@@ -101,7 +101,7 @@ Download with `smbmap -H <ip> -u <user> [-p <pass>] --download ‘.\\Folder\\Fil
 <div>
 <div style="display: grid; grid-columns: auto auto">
 <div style="grid-column: 1/2">
-The `dirb` command of kali can be used to try many common sub\-pages of websites\.
+The `dirb` command of kali can be used to try many common sub-pages of websites.
 <img src="./img/enum779.webp" style="padding-top: 3em;"/> 
 </div>
 <div style="grid-column: 2/3">
