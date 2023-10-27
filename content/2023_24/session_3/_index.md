@@ -441,3 +441,13 @@ win-infra-<0.8>: 100.109.213.117, 100.78.86.152
 
 Submit flags on the website, or to the bot (LUHack-Verification-Bot)
 
+
+---
+
+# The Usuals
+
+- Rock & Pop Classics for Halloween
+- County Bar
+- Today -- 8pm til late
+- Geoff Coulson, **Nigel Davies**, **Joe Finney**, Amanda Ross, Chris Worsley
+
