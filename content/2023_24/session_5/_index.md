@@ -1,12 +1,13 @@
 ---
 title: "Cryptography"
+layout: single
 ---
 
 # Cryptography
 
 ## Ciphers, encryption and hashing
 
-![](../img/cryptography666.webp)
+![](./img/cryptography666.webp)
 
 
 ---
@@ -42,7 +43,7 @@ Hashing (if the hash algorithm is cryptographic: md5, sha512)
 
 Normally just some kind of rule of swapping the letters in the alphabet around.
 
-![](../img/cryptography667.webp)
+![](./img/cryptography667.webp)
 
 
 ---
@@ -54,7 +55,7 @@ Simply rotates the alphabet round a set amount, I.e. A -> B, B -> C…
 
 Very few keys - only 26! So easy to work out plaintext by bruteforce!
 
-![](../img/cryptography668.webp)
+![](./img/cryptography668.webp)
 
 
 ---
@@ -78,7 +79,7 @@ __Not very hard! Look out for distribution of letters (E,T, & A) are the most co
 
 Chops the alphabet in half, no key this time!
 
-![](../img/cryptography669.webp)
+<img style="background-color:white" src="./img/cryptography669.webp">
 
 
 ---
@@ -86,7 +87,7 @@ Chops the alphabet in half, no key this time!
 
 One warning, however: ROT13 + ROT13 = Plaintext again!
 
-![](../img/cryptography670.webp)
+![](./img/cryptography670.webp)
 
 
 ---
@@ -98,7 +99,7 @@ Same key is used for both encryption and decryption
 
 XOR, AES, DES, RC4
 
-![](../img/cryptography671.webp)
+![](./img/cryptography671.webp)
 
 
 ---
@@ -117,6 +118,8 @@ __You have to share your key with someone so that they can encrypt their message
 XOR is an incredibly simple cipher, take a plaintext and an encryption key, repeat the encryption key until it is as long as the plaintext, then combine each bit of the plaintext with the equivalent bit of the encryption key.
 
 Decrypting XOR is as simple as encrypting the ciphertext with the same key again.
+
+---
 
 ```
 foo xor bar =
@@ -142,7 +145,7 @@ Different keys are used for encryption(public) and decryption(private)
 
 The encryption key (public key) can be known to anyone, hence public, meanwhile the decryption key should only be known to the owner of the keys
 
-![](../img/cryptography672.webp)
+![](./img/cryptography672.webp)
 
 
 ---
@@ -276,7 +279,7 @@ Kali provides some dictionaries of common passwords (wordlists, stored at /usr/s
 
 14,344,392 passwords!
 
-![](../img/cryptography673.webp)
+![](./img/cryptography673.webp)
 
 
 ---
@@ -288,7 +291,7 @@ _[https://github.com/danielmiessler/SecLists](https://github.com/danielmiessler/
 
 Over 100Mb of password lists, default credentials and cracked hashes
 
-![](../img/cryptography674.webp)
+![](./img/cryptography674.webp)
 
 
 ---
@@ -299,6 +302,8 @@ Sometimes you want to crack more complicated passwords with combinations of lett
 The method is still brute force, but you have to generate your own dictionary
 
 You can do this using “rules” which can take an existing wordlist and apply something to it, like adding every number between 1950 and 2010.
+
+---
 
 ```
 123456
@@ -337,7 +342,7 @@ abc123
 password1
 ```
 
-
+---
 
 `twooter-leak.txt`
 
@@ -351,14 +356,9 @@ bob:e10adc3949ba59abbe56e057f20f883ead422
 ---
 
 
-![](../img/cryptography675.webp)
+![](./img/cryptography675.webp)
 
-CRACKED PASSWORDS
-
-(username:password)
-
-WORDLIST		HASHES
-
+The first command shows worldist hash matches. The second command shows the cracked passwords in the form `username:password`. 
 
 ---
 
