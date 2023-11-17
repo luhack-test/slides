@@ -28,6 +28,11 @@ Vulnerabilities in the web app code - someone has coded a php page that doesn’
 
 ![](./img/web731.webp)
 
+---
+# General advice
+
+Whenever you wanna hack a website, open the browsers devtools and start exploring whats currently going on
+
 
 ---
 
@@ -151,34 +156,6 @@ Allows an attacker to access the database\, probably view all the data\, and pot
 # Regular SQL statements
 
 <span style="color:#919191">SELECT </span> \*  <span style="color:#4A86E8">FROM </span> Users  <span style="color:#4A86E8">WHERE </span> UserID = 1
-
-
----
-
-
-<span style="color:#919191">SELECT </span> \*  <span style="color:#4A86E8">FROM </span> Users  <span style="color:#4A86E8">WHERE </span> UserID = 1
-
-<span style="color:#919191">This means we want to access records in the database</span>
-
-<span style="color:#919191">We specify \*\, meaning every column</span>
-
-
----
-
-
-<span style="color:#919191">SELECT </span> \*  <span style="color:#4A86E8">FROM </span> Users  <span style="color:#4A86E8">WHERE </span> UserID = 1
-
-<span style="color:#919191">The table we want to access\.</span>
-
-<span style="color:#919191">This case it’s ‘Users’</span>
-
-
----
-
-
-<span style="color:#919191">SELECT </span> \*  <span style="color:#4A86E8">FROM </span> Users  <span style="color:#4A86E8">WHERE </span> UserID = 1
-
-<span style="color:#919191">We are looking for UserID 1</span>
 
 
 ---
@@ -322,12 +299,7 @@ Injecting client\-side scripts into web pages can allow an attacker to execute s
 
 Most forms are potentially vulnerable to XSS
 
-3 types of XSS: Reflected\, Stored\, and DOM\-based
-
----
-
-Alex, just mention that we’re not explaining about DOM-based XSS as it’s more complex and not what we’re doing today, but there’s need for awareness that it exists
-
+Main types of XSS: Reflected\, Stored\
 
 ---
 
