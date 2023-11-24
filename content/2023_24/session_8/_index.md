@@ -1,5 +1,6 @@
 ---
 title: "Getting connected with HTB"
+layout: single
 ---
 
 ![](./img/htb604.webp)
