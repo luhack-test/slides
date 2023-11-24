@@ -2,7 +2,7 @@
 title: "Getting connected with HTB"
 ---
 
-![](../img/htb604.webp)
+![](./img/htb604.webp)
 
 # 
 
@@ -10,7 +10,7 @@ title: "Getting connected with HTB"
 ---
 
 
-![](../img/htb605.webp)
+![](./img/htb605.webp)
 
 
 ---
@@ -28,7 +28,7 @@ _[https://help\.hackthebox\.com/en/articles/5185687\-introduction\-to\-lab\-acce
 
 # 
 
-![](../img/htb606.webp)
+![](./img/htb606.webp)
 
 
 ---
@@ -43,5 +43,5 @@ _[https://help\.hackthebox\.com/en/articles/5185687\-introduction\-to\-lab\-acce
   * Plenty of times there’ll be a website only accessible via the \.htb domain
 * After running NMAP\, fiddle around with exposed services\. Google version numbers\, etc\.
 
-![](../img/htb607.webp)
+![](./img/htb607.webp)
 
