@@ -24,6 +24,6 @@ author: Aaron
 
 # HTB University CTF
 
-![](./img/HTB-University-CTF-2023.jpeg)
+![](./img/HTB-University-CTF-2023.jpg)
 
 ---
