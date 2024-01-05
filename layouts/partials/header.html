@@ -1,25 +1,51 @@
-<header>
-  <div class="masthead">
-    <a class="header-logo" href="/"><img src="{{ .Site.Params.Logo }}" alt="logo"></a>
+<nav class="masthead main">
+  <a href="https://luhack.uk/" id="logo">
+    <svg
+      viewBox="0 0 134 190"
+      xmlns="http://www.w3.org/2000/svg"
+      xml:space="preserve"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-miterlimit="1.5"
+    >
+      <g stroke="#ddd">
+        <path
+          d="m34 73 1-33C35 22 50 8 67 8c14 0 27 10 31 24m27 70v57c0 13-10 23-22 23H31c-13 0-23-10-23-23v-57c0-12 10-23 23-23h72c12 0 22 11 22 23Z"
+          fill="none"
+          stroke-width="15.6"
+        />
+        <g fill="#ddd" stroke-width="3.9">
+          <path
+            d="M65 130c-6-1-11-6-11-12 0-7 6-13 13-13s13 6 13 13c0 6-5 11-11 12"
+          />
+          <path d="M72 126v19H62v-19" />
+        </g>
+      </g>
+    </svg>
+  </a>
+
+  <input type="checkbox" id="nav-toggle" />
+  <div id="main-nav">
+    <a href="https://discord.com/invite/SjQSnQ9">Join in</a>
+    <a href="https://luhack.uk/talks">Give a talk</a>
+    <a href="https://luhack.uk/sponsors">Sponsor us</a>
+    <a href="https://scc-luhack.lancs.ac.uk/challenges/">Challenges</a>
+    <a href="https://scc-luhack.lancs.ac.uk/writeups">Blog</a>
+    <a href="https://slides.luhack.uk">Slides</a>
   </div>
-  <div id="modeToggle">
-    <svg id="movePrevious" xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
-      <path d="M20 11v2H8l5.5 5.5-1.4 1.4L4 12l8-8 1.4 1.5L8 11h12Z" />
+  <label for="nav-toggle" id="burger">
+    <svg
+      viewBox="0 0 64 64"
+      xmlns="http://www.w3.org/2000/svg"
+      xml:space="preserve"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      stroke-linejoin="round"
+      stroke-miterlimit="2"
+    >
+      <path fill="#ddd" d="M8 44h48v6H8zm0-15h48v6H8zm0-15h48v6H8z" />
     </svg>
-    <span id="slideState">10/100</span>
-    <svg id="moveNext" xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
-      <path d="M4 11v2h12l-5.5 5.5 1.4 1.4 8-7.9-8-8-1.4 1.5L16 11H4Z" />
-    </svg>
-    <svg id="modeNotes" xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
-      <path d="M14 10V4.5l5.5 5.5M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9l-6-6H5Z" />
-    </svg>
-    <svg id="modeSlides" xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
-      <path
-        d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.8l1.8 6h-2l-1.8-6h-2.4L9 22H7l1.8-6H3V5H2V3m3 2v9h14V5H5Z" />
-    </svg>
-    <a target="_blank" href="https://bar.mfriedrich.win/?text={{ .Permalink }}"><svg xmlns="http://www.w3.org/2000/svg" fill="var(--text)" width="24" height="24">
-      <path
-        d="M3 11h2v2H3v-2m8-6h2v4h-2V5m-2 6h4v4h-2v-2H9v-2m6 0h2v2h2v-2h2v2h-2v2h2v4h-2v2h-2v-2h-4v2h-2v-4h4v-2h2v-2h-2v-2m4 8v-4h-2v4h2M15 3h6v6h-6V3m2 2v2h2V5h-2M3 3h6v6H3V3m2 2v2h2V5H5M3 15h6v6H3v-6m2 2v2h2v-2H5Z" />
-    </svg></a>
-  </div>
-</header>
+  </label>
+</nav>
