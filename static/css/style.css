@@ -25,6 +25,7 @@ body {
 }
 
 main{
+  padding-inline: 1rem;
   flex:1;
 }
 
@@ -97,6 +98,7 @@ img {
 article {
   max-width: 100ch;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 .articleSlides {
