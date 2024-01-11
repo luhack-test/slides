@@ -1,34 +1,14 @@
 <nav class="masthead main">
-  <a href="https://luhack.uk/" id="logo">
-    <svg
-      height="2rem"
-      width="1.5rem"
-      viewBox="0 0 134 190"
-      xmlns="http://www.w3.org/2000/svg"
-      xml:space="preserve"
-      fill-rule="evenodd"
-      clip-rule="evenodd"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-miterlimit="1.5"
-    >
-      <g stroke="#ddd">
-        <path
-          d="m34 73 1-33C35 22 50 8 67 8c14 0 27 10 31 24m27 70v57c0 13-10 23-22 23H31c-13 0-23-10-23-23v-57c0-12 10-23 23-23h72c12 0 22 11 22 23Z"
-          fill="none"
-          stroke-width="15.6"
-        />
-        <g fill="#ddd" stroke-width="3.9">
-          <path
-            d="M65 130c-6-1-11-6-11-12 0-7 6-13 13-13s13 6 13 13c0 6-5 11-11 12"
-          />
-          <path d="M72 126v19H62v-19" />
-        </g>
-      </g>
-    </svg>
-  </a>
+  <!-- left aligned: wrap in div to add more content here -->
+  <div>
+    <a href="https://luhack.uk/" id="logo">
+      {{partial "svg/logo.html"}}
+    </a>
+  </div>
 
   <input type="checkbox" id="nav-toggle" />
+
+  <!-- Center aligned -->
   <div id="main-nav">
     <a href="https://discord.com/invite/SjQSnQ9">Join in</a>
     <a href="https://luhack.uk/talks">Give a talk</a>
@@ -37,17 +17,21 @@
     <a href="https://scc-luhack.lancs.ac.uk/writeups">Blog</a>
     <a href="https://slides.luhack.uk">Slides</a>
   </div>
-  <label for="nav-toggle" id="burger">
-    <svg
-      viewBox="0 0 64 64"
-      xmlns="http://www.w3.org/2000/svg"
-      xml:space="preserve"
-      fill-rule="evenodd"
-      clip-rule="evenodd"
-      stroke-linejoin="round"
-      stroke-miterlimit="2"
-    >
-      <path fill="#ddd" d="M8 44h48v6H8zm0-15h48v6H8zm0-15h48v6H8z" />
+
+  <!-- right aligned -->
+  <div>
+    <label for="nav-toggle" id="burger">
+      <svg
+          viewBox="0 0 64 64"
+          xmlns="http://www.w3.org/2000/svg"
+          xml:space="preserve"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+      >
+      <path fill="#ddd" d="M8 44h48v6H8zm0-15h48v6H8zm0-15h48v6H8z"/>
     </svg>
-  </label>
+    </label>
+  </div>
 </nav>
