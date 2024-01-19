@@ -31,15 +31,15 @@ layout: "single"
 
 ---
 
+# How can this be used?
 
-# Tools
-
-Handy tool for automating a lot of this, also has a handy cheatsheet: [aperisolve.com](https://www.aperisolve.com/)
+- Communicating with other people covertly
+- Storing information you do nto want other people to find
+- Malware uses it to hide it's data on a system that has been compromised see [this](https://www.bleepingcomputer.com/news/security/worok-hackers-hide-new-malware-in-pngs-using-steganography/), [this](https://www.bleepingcomputer.com/news/security/hackers-hide-malware-in-james-webb-telescope-images/) and [this](https://www.bleepingcomputer.com/news/security/github-hosted-malware-calculates-cobalt-strike-payload-from-imgur-pic/).
 
 ---
 
 # Common Mediums
-
 
 - Network packets
 - Audio
@@ -48,12 +48,18 @@ Handy tool for automating a lot of this, also has a handy cheatsheet: [aperisolv
 
 ---
 
+
+# Tools
+
+Handy tool for automating a lot of this, also has a handy cheatsheet: [aperisolve.com](https://www.aperisolve.com/)
+
+---
+
 ## General Files
 
 * Embedding files in other files
 * Encoded data
 * Modified file extension
-
 
 ---
 
@@ -185,12 +191,13 @@ Allows you to view the spectrogram\, IMO easier to use than audacity
 
 ## Images
 
+Images have lots of data, and often you can use quirks of various formats of string image data to hide data without anyone noticing.
+
 * LSB (Least significant bit) of pixels
 * DCT (Discrete Cosine Transformation) coefficients of jpeg images
 * Bit planes
 
 ---
-
 
 ### exiftool
 
@@ -427,17 +434,41 @@ Java interface for inspecting bit planes of images\. Very useful for detecting i
 
 ---
 
-
 # Email Demo
 
+We will use GPG asymmetric encryption cos security and `steghide` to disguise what we are doing.
 
+---
+
+## Sending
+
+1. Create key pairs and share your public key
+    `gpg --full-generate-key`
+2. Pick a photo and write your message in a text document
+3. Import the other person's public key
+    `gpg --import <publickey.gpg>`
+4. Encrypt your message with the other person's public key
+    `gpg -e -u <your private key> -r <recipient public key> <your file>`
+5. Use steghide, you can use an empty password becuase you just encrypted it properly
+    `steghide embed -cf <your image> -ef <your file>.gpg -p ""`
+6. Send the message via email with the message as an attachment
+
+
+## Receiving
+
+1. Download the attachment
+2. Use steghide to retrieve the encrypted message
+    `steghide extract -sf <your image> -p ""`
+3. Decrypt the file
+    `gpg -d <your file>.gpg`
+4. Read it
 
 ---
 
 
 # Try the demo yourself
 
-Blah
+Why not try the demo for yourself with a friend? If you need help, check the instructions above, or ask me.
 
 # Challenges
 
