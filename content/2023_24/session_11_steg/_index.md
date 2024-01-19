@@ -442,14 +442,14 @@ We will use GPG asymmetric encryption cos security and `steghide` to disguise wh
 
 ## Sending
 
-1. Create key pairs and share your public key
+1. Create key pairs and share your public key \
     `gpg --full-generate-key`
 2. Pick a photo and write your message in a text document
-3. Import the other person's public key
+3. Import the other person's public key \
     `gpg --import <publickey.gpg>`
-4. Encrypt your message with the other person's public key
+4. Encrypt your message with the other person's public key \
     `gpg -e -u <your private key> -r <recipient public key> <your file>`
-5. Use steghide, you can use an empty password becuase you just encrypted it properly
+5. Use steghide, you can use an empty password becuase you just encrypted it properly \
     `steghide embed -cf <your image> -ef <your file>.gpg -p ""`
 6. Send the message via email with the message as an attachment
 
@@ -457,9 +457,9 @@ We will use GPG asymmetric encryption cos security and `steghide` to disguise wh
 ## Receiving
 
 1. Download the attachment
-2. Use steghide to retrieve the encrypted message
+2. Use steghide to retrieve the encrypted message \
     `steghide extract -sf <your image> -p ""`
-3. Decrypt the file
+3. Decrypt the file \
     `gpg -d <your file>.gpg`
 4. Read it
 
