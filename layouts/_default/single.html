@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  {{ partial "head.html" . }}
+  <body>
+    {{ partial "header.html" . }}
+    <header>
+      <div id="modeToggle">
+        <svg
+          id="movePrevious"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="var(--color)"
+          width="24"
+          height="24"
+        >
+          <path d="M20 11v2H8l5.5 5.5-1.4 1.4L4 12l8-8 1.4 1.5L8 11h12Z" />
+        </svg>
+        <span id="slideState">10/100</span>
+        <svg
+          id="moveNext"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="var(--color)"
+          width="24"
+          height="24"
+        >
+          <path d="M4 11v2h12l-5.5 5.5 1.4 1.4 8-7.9-8-8-1.4 1.5L16 11H4Z" />
+        </svg>
+        <svg
+          id="modeNotes"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="var(--color)"
+          width="24"
+          height="24"
+        >
+          <path
+            d="M14 10V4.5l5.5 5.5M5 3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V9l-6-6H5Z"
+          />
+        </svg>
+        <svg
+          id="modeSlides"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="var(--color)"
+          width="24"
+          height="24"
+        >
+          <path
+            d="M2 3h8a2 2 0 0 1 2-2 2 2 0 0 1 2 2h8v2h-1v11h-5.8l1.8 6h-2l-1.8-6h-2.4L9 22H7l1.8-6H3V5H2V3m3 2v9h14V5H5Z"
+          />
+        </svg>
+        <a
+          target="_blank"
+          href="https://bar.mfriedrich.win/?text={{ .Permalink }}"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="var(--color)"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M3 11h2v2H3v-2m8-6h2v4h-2V5m-2 6h4v4h-2v-2H9v-2m6 0h2v2h2v-2h2v2h-2v2h2v4h-2v2h-2v-2h-4v2h-2v-4h4v-2h2v-2h-2v-2m4 8v-4h-2v4h2M15 3h6v6h-6V3m2 2v2h2V5h-2M3 3h6v6H3V3m2 2v2h2V5H5M3 15h6v6H3v-6m2 2v2h2v-2H5Z"
+            /></svg
+        ></a>
+      </div>
+    </header>
+    <main>
+      {{ partial "meta.html" . }}
+      <article>{{ .Content }}</article>
+    </main>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

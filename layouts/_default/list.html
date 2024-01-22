@@ -17,11 +17,7 @@
 </head>
 
 <body>
-  <header>
-    <div class="masthead">
-      <a class="header-logo" href="/"><img src="{{ .Site.Params.Logo }}" alt="logo"></a>
-    </div>
-  </header>
+    {{partial "header.html"}}
   <main>
     <article>
       {{ .Content }}
