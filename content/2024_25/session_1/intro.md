@@ -33,11 +33,6 @@ width:50%;
 }
 </style>
 
-![](../img/intro632.webp)
-
-
----
-
 
 # What is hacking?
 
