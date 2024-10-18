@@ -125,4 +125,9 @@ Can be used to discern what protocols are being used to pass data between nodes
 
 Wireshark takes captured packets and allows you to analyse them
 
+This can give you an indication of how things are running
+
+Can also capture any passwords if they are sent in plaintext ...
+
+---
 
