@@ -61,24 +61,4 @@ Humans want to trust each other.
 
 ---
 
-<!-- Might have to cut this bit -->
-
-# Some examples of phishing
-
-<!-- Really shit one -->
-
----
-
-<!-- Pretty good one -->
-
----
-
-<!-- Ransomware Cache attack -->
-
----
-
-<!-- Extortion -->
-
----
-
 # Storytime
