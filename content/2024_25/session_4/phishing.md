@@ -3,7 +3,7 @@
 
 # What is phishing?
 
-![meme](./img/gonePhishing.jpg)
+![meme](../img/gonePhishing.jpg)
 
 ---
 
