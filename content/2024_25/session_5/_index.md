@@ -15,7 +15,7 @@ An intro to how to type correctly
 
 # Vim's utter superiority
 
-![home-row](../img/home-row.jpg)
+![home-row](img/home-row.jpg)
 
 ---
 
@@ -44,13 +44,13 @@ The art of hiding things in plain sight
 
 # Microdot
 
-![microdot](../img/microdot.png)
+![microdot](img/microdot.png)
 
 ---
 
 # Text steganography
 
-![text-steg](../img/text-steg.png)
+![text-steg](img/text-steg.png)
 
 ---
 
