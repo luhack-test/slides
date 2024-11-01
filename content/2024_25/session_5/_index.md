@@ -71,3 +71,13 @@ All images will contain some level of MetaData, known as EXIF.
 ---
 
 # luhack.uk/w4
+
+## you may want some tools
+- zsteg (ruby gem, using wsl on windows)
+- steghide
+- gimp
+- https://www.sonicvisualiser.org/
+- ImageMagick (install via wsl on windows)
+- https://www.aperisolve.com
+- exiftool
+- Stegsolve
