@@ -67,3 +67,7 @@ Have you heard some of the shit on the radio?
 Photos can be used to layer other images within them.
 
 All images will contain some level of MetaData, known as EXIF.
+
+---
+
+# luhack.uk/w4
