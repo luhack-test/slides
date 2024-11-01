@@ -72,7 +72,8 @@ All images will contain some level of MetaData, known as EXIF.
 
 # luhack.uk/w4
 
-## you may want some tools
+## You may want some tools.
+We recommend keeping the following in mind:
 - zsteg (ruby gem, using wsl on windows)
 - steghide
 - gimp
