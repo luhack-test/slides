@@ -84,6 +84,13 @@ layout: single
 
 ---
 
+## What if I want to encrypt less than 128 bits?
+
+- Padding is added to the plaintext to make it 128 bits
+- The padding is removed after decryption
+
+---
+
 ## What if I want to encrypt more than 128 bits?
 
 - There are several ways to do this (these are called modes of operation)
@@ -133,6 +140,8 @@ layout: single
 - This prevents identical plaintext blocks from encrypting to identical ciphertext blocks
 - It has good diffusion and confusion, as long as the IV is random and unique
 
+---
+
 ## IV
 
 - The IV should be random
@@ -155,11 +164,15 @@ layout: single
 
 ---
 
-![CRT](./ctr.png)
+![CRT](./crt.png)
 
 ---
 
-You can find an example of the three modes discussed [here](./modes-demo.py)
+If you find code helpful to conceptualize new concepts, here is some Python code that demonstrates the three modes of
+operation discussed.
+
+You can find an example of the three modes discussed [here](./modes-demo)
+
 
 ---
 

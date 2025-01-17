@@ -1,4 +1,11 @@
+---
+layout: single
+title: Modes of Operation Demo
+---
 
+# Modes of Operation Demo
+
+```python
 class MockBlockCipher:
     def __init__(self, key):
         self.key = key
@@ -183,3 +190,4 @@ def example():
 
 if __name__ == '__main__':
     example()
+```
