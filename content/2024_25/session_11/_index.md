@@ -48,6 +48,16 @@ layout: single
 
 ---
 
+## What did we use before AES?
+
+- DES = Data Encryption Standard
+- It was classified as a weapon by the US government
+- It was replaced by AES in 2001
+- It was illegal to export DES outside of the US, on a digital medium, without a license
+- But it was fine if you printed it on a T-shirt
+
+---
+
 ## What actually is AES?
 
 - Block cypher
