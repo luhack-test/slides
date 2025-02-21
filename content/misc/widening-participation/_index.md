@@ -83,10 +83,10 @@ title: "Widening Participation"
 
 ## Vishing Activity Explanation
 
-| Attacker Worksheet                                                                                             | Victim Worksheet                                                                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Company name, Brief description, Objectives                                                                    | Company name, description and secret info, your job role                                                                                                                    |
-| **ShaddyTell Ltd.**<br>A mobile phone cellular carrier.<br>**Objective**<br>What brand of laptops do they use? | **ShaddyTell Ltd.**<br>ShaddyTell is a mobile phone cellular carrier. <br> They use a mixture of Dell Laptops and HP Desktops. <br> **Sales Manager**<br> Called Joe Bloggs |
+| Attacker Worksheet                                                                                                                                                          | Victim Worksheet                                                                                                                                                                                                                                             |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Company name, Brief description, Objectives                                                                                                                                 | Company name, description and secret info, your job role                                                                                                                                                                                                     |
+| **ShadyTell Ltd.**<br>A mobile phone cellular carrier.<br>**Objective**<br>What brand of laptops do they use?<br>When does the contract with their network operator expire? | **ShadyTell Ltd.**<br>ShadyTell is a mobile phone cellular carrier. <br> They use a mixture of Dell Laptops and HP Desktops. <br> They piggyback off the Five network, their contract will expire in 17 months. <br> **Sales Manager**<br> Called Joe Bloggs |
 
 ---
 
