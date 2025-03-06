@@ -1,6 +1,6 @@
 # Cisco IOS command sheet
 
-** Tab complete **
+**Tab complete**
 
 ? provides list of possible commands
 
