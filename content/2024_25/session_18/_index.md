@@ -3,6 +3,14 @@ title: Securing the Net
 layout: single
 ---
 
+resources
+
+[Cheat Sheet](./network-security-session-cheat-sheet)
+
+[Spec](./rusty-nails-ltd-spec)
+
+---
+
 # Intro to Network Security
 
 ---
