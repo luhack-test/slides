@@ -29,3 +29,5 @@ There are 6 planes in the network, each with a different VLAN and IP range.
 - Configure Firewalls
 - Items have been left to create an R&D plane within the packet tracer file,
   build this plane and configure it as you see fit.
+- The client has noticed that they have a 1 Gigabit bottleneck and lack redundancy
+  in their network, they would like you to deploy a solution to this.
