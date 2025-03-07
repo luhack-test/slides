@@ -11,7 +11,7 @@ There are 6 planes in the network, each with a different VLAN and IP range.
 | 30   | Data        | 172.16.30.x |
 | 40   | Finance     | 172.16.40.x |
 | 50   | Engineering | 172.16.50.x |
-| 60   | Executive   | 192.168.1.x |
+| 60   | Executive   | 172.16.60.x |
 
 ## Known Issues
 
