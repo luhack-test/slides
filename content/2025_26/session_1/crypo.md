@@ -79,7 +79,7 @@ __Not very hard! Look out for distribution of letters (E,T, & A) are the most co
 
 Chops the alphabet in half, no key this time!
 
-<img style="background-color:white" src="./img/cryptography669.webp">
+![](./img/cryptography669.webp)
 
 
 ---
