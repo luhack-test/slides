@@ -127,3 +127,13 @@ You may want to start by emailing `m.clarke@doe.gov.rh` (easy) or `tam.green@sys
 
 domain registrar: come to the front, or email `namemaster@icant.org`
 
+| **Department of Education – Objective** | **Rheged Systems Services – Objective** |
+|----------------------------------------|------------------------------------------|
+| Where do they volunteer? | What is the key selling point of the company's services? |
+| What do they do there? | How many clients do they have? |
+| What type of "old-school" stationary do they like? | Is their backup solution reliable? |
+| What activity do they do for charity? | Where are their email services hosted? |
+| What is their role called internally? | What is their boss's email address? |
+| What materials are they currently preparing? | When was the last time they performed a test on their backup solution? |
+
+
