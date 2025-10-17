@@ -125,3 +125,5 @@ https://luhack.uk/w2
 
 You may want to start by emailing `m.clarke@doe.gov.rh` (easy) or `tam.green@systemx.rh` (hard)
 
+domain registrar: come to the front, or email `namemaster@icant.org`
+
