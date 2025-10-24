@@ -126,6 +126,25 @@ Can also brute force credentials using Hydra:
 
 ---
 
+# Anonymus login and hidden stuff in file shares
+
+SMB shares and FTP servers can be misconfigured to allow anonymus logins allowing attackers to enumarate part of the file server or the server in its entirety
+
+`ftp <IP>`
+
+```
+Username: anonymous
+Password: \<anything/blank>
+```
+
+
+`smbclient -L //<IP> -N`
+
+`smbclient //<IP>/<share> -N`
+
+
+---
+
 # DNS
 
 “Normal” DNS query:
