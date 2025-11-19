@@ -1,6 +1,6 @@
 ---
 title: "Week 7: Steg"
-author: Isaac Richardson
+author: Luke Needle
 date: 2025-11-21
 layout: single
 ---
