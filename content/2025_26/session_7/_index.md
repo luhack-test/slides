@@ -11,10 +11,6 @@ The art of hiding things in plain sight
 
 ---
 
-# What is Steganography?
-
----
-
 # Examples of Steganogrpahy
 
 - Photos
@@ -39,8 +35,6 @@ The art of hiding things in plain sight
 # Music
 
 I mean most music nowadays must be trying to subliminally tell you something.
-
-Have you heard some of the shit on the radio? 
 
 ---
 
