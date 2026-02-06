@@ -1,5 +1,5 @@
 ---
-title: "Week 14: Reverse Engineering"
+title: "Week 14: SQL Injection"
 author: LUHack
 date: 2026-02-06
 layout: single
