@@ -12,10 +12,14 @@ layout: single
 ## What is SQL Injection (SQLi)?
 SQLi is a vulnerability where untrusted input is incorporated into SQL queries without proper handling, allowing an attacker to change the intended query. Consequences include data exposure, authentication bypass, and (in some databases/configs) remote code execution.
 
+---
+
 ## Why it matters
 - Databases hold sensitive data (users, passwords, secrets).  
 - SQLi can leak or modify all data the DB user can access.  
 - Some DB engines (e.g., PostgreSQL) have features (COPY TO PROGRAM, pg_read_file) that can escalate SQLi into command execution or file disclosure.
+
+---
 
 ## A minimal example
 Application builds a query like:
@@ -29,6 +33,8 @@ Example payloads:
 - Numeric field: 1 OR 1=1
 - String field: ' OR '1'='1
 
+---
+
 ## Common types of SQLi
 - In-band (classic)
   - Error-based
@@ -38,11 +44,15 @@ Example payloads:
   - Time-based (sleep delays to exfiltrate data bit-by-bit)
 - Out-of-band (OOB) — uses external channels if DB supports them
 
+---
+
 ## Advanced techniques (brief)
 - UNION SELECT to craft rows with controlled columns and read data.
 - Blind extraction via boolean or time side-channels when results aren't shown.
 - Using DB-specific functions/features to read files or execute commands (Postgres: COPY ... TO PROGRAM, pg_read_file).
 - Automation with sqlmap to accelerate discovery and extraction.
+
+---
 
 ## Quick testing checklist
 1. Identify injection points (GET params, POST bodies, cookies, headers).  
@@ -54,6 +64,8 @@ Example payloads:
 5. Use time-based probes if no visible output: `'; SELECT pg_sleep(5); --` (Postgres example).  
 6. Automate carefully with sqlmap or use a proxy (Burp/ZAP) to tune payloads.
 
+---
+
 ## Prevention (practical)
 - Use parameterized queries / prepared statements (do not concatenate user input into SQL).  
 - Use an ORM or query builder that enforces parameterization where possible.  
@@ -61,6 +73,7 @@ Example payloads:
 - Validate and normalize inputs (types/lengths), but don’t rely on validation as the only defense.  
 - Avoid exposing detailed DB errors to users (generic errors + logging).  
 
+---
 
 ## Short code example
 ```python
@@ -78,16 +91,21 @@ def get_user_safe(user_id):
 
 ```
 
+---
+
 ## Tools & references
 - sqlmap — automation for detection and exploitation  
 - Burp Suite / OWASP ZAP — intercepting and manipulating requests  
 - OWASP SQL Injection cheat sheet: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html  
 - OWASP Top Ten: https://owasp.org/www-project-top-ten/
-## Fuzzing tools & SQLi wordlists
 
+---
+
+## Fuzzing tools & SQLi wordlists
 - WFuzz SQL injection wordlist — https://github.com/xmendez/wfuzz/blob/master/wordlist/Injections/SQL.txt  
 - PenTestical sqli repository — https://github.com/PenTestical/sqli
 
+---
 
 ## Tips
 - Treat every input as hostile.  
@@ -96,5 +114,4 @@ def get_user_safe(user_id):
 - Test with simple probes before using automation.  
 - Learn the DB-specific risks (e.g., Postgres COPY/pg_read_file).
 
-
-## This weeks challenge https://session.luhack.uk/
+## https://session.luhack.uk/
