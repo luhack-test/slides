@@ -142,11 +142,11 @@ msf > search foo
 
 ```
 msf > use exploit/linux/http/ivanti_connect_secure_rce_cve_2023_46805
+msf exploit(ivanti_connect_secure_rce_cve_2023_46805) > show options
+    ...show and set options...
 msf exploit(ivanti_connect_secure_rce_cve_2023_46805) > show targets
     ...targets...
 msf exploit(ivanti_connect_secure_rce_cve_2023_46805) > set TARGET < target-id >
-msf exploit(ivanti_connect_secure_rce_cve_2023_46805) > show options
-    ...show and set options...
 msf exploit(ivanti_connect_secure_rce_cve_2023_46805) > exploit
 ```
 
