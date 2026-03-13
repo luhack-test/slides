@@ -1,5 +1,5 @@
 ---
-title: "Week 18: Linux Exploitation"
+title: "Week 19: Linux Exploitation"
 author: LUHack
 date: 2026-03-13
 layout: single
