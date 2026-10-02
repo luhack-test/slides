@@ -14,11 +14,16 @@ date: 2026-10-02
         width: 60%;
         max-height: initial;
     }
+
+    img.portrait {
+        aspect-ratio: auto;
+        width: auto;
+    }
 </style>
 
 # Open Source Intelligence
 
-<img id="title-image" src="../img/osint.png" alt="alt text">
+<img id="title-image" src="../img/osint.png">
 
 ---
 
@@ -48,7 +53,7 @@ https://centralops.net/co/DomainDossier
 
 Public digital library of websites and historical snapshots.
 
-![alt text](../img/luhack-archive.png)
+![](../img/luhack-archive.png)
 
 https://web.archive.org/
 
@@ -70,7 +75,7 @@ UK companies are publicly registered on companies house.
 
 You can find information such as, directors names & addresses, yearly profit, number of employees, and amount of assets held.
 
-![alt text](../img/uni-income.png)
+![](../img/uni-income.png)
 
 ---
 
@@ -78,7 +83,7 @@ You can find information such as, directors names & addresses, yearly profit, nu
 
 A way of searching Google with advanced/specific operators to discover hard to find information.
 
-![alt text](../img/google-dorking.png)
+![](../img/google-dorking.png)
 
 https://gist.github.com/sundowndev/283efaddbcf896ab405488330d1bbc06
 
@@ -110,20 +115,14 @@ Tells a receiving mail server the authorised IP addresses and what to do with ma
 
 # Neutral responses are not secure
 
-![alt text](../img/dig-lancs-spf.png)
-![alt text](../img/google-lancs-spf.png)
+![](../img/dig-lancs-spf.png)
+![](../img/google-lancs-spf.png)
 
 ---
 
-# Compsoc Freshers Event
+# Compsoc x FemTech Freshers Event
 
-- CompSoc x FemTech Welcome Talk
-- Monday 5th October at 6PM
-- Bowland Main LT
-- Learn about the societies and the executive committees
-- Pizza is included!
-
-https://www.instagram.com/lucompsoc/
+<img class="portrait" src="../img/compsoc-event.png">
 
 ---
 
