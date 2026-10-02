@@ -116,7 +116,14 @@ Tells a receiving mail server the authorised IP addresses and what to do with ma
 ---
 
 # Compsoc Freshers Event
-<!-- Comp soc event -->
+
+- CompSoc x FemTech Welcome Talk
+- Monday 5th October at 6PM
+- Bowland Main LT
+- Learn about the societies and the executive committees
+- Pizza is included!
+
+https://www.instagram.com/lucompsoc/
 
 ---
 
