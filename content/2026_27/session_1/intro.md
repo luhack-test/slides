@@ -103,15 +103,6 @@ We will not tolerate our members engaging in being Racist/Sexist/Homophobic/Tran
 
 Be nice\, thanks\.
 
-
----
-
-# Want some merch?
-
-You can buy merch with the LUHack logo on it.
-
-**luhack.uk/merch**
-
 ---
 
 # Thanks for listening!
