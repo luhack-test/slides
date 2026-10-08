@@ -126,7 +126,7 @@ Tells a receiving mail server the authorised IP addresses and what to do with ma
 
 ---
 
-# [luhack.uk/w1](https://luhack.uk/w1)
+# [luhack.uk/w0](https://luhack.uk/w0)
 
 Domain Dossier: https://centralops.net/co/DomainDossier
 
