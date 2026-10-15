@@ -1,5 +1,5 @@
 ---
-title: Session 1
+title: "Week 1: Cryptography"
 layout: single
 author: "Luke Needle"
 date: 2026-10-09
