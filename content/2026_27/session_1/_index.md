@@ -171,7 +171,7 @@ We will be putting this into practice via a fictional scenario.
 
 ---
 
-# [luhack.uk/w2](https://luhack.uk/w1)
+# [luhack.uk/w1](https://luhack.uk/w1)
 
 https://gchq.github.io/CyberChef/
 
