@@ -74,4 +74,27 @@ print(len(divs))
 
 ---
 
+## sitemap.xml
+
+- An XML file listing a site's pages
+- Usually found at `/sitemap.xml`
+- Helps search engines discover and index content
+- Can include last-modified dates and priorities
+- Useful for recon: a quick map of the site's pages without crawling
+
+---
+
+## robots.txt
+
+- A plain text file at `/robots.txt`
+- Tells crawlers which paths they should and shouldn't visit
+- Uses `User-agent`, `Allow` and `Disallow` rules
+- Purely advisory, so nothing enforces it
+- Companies sometimes list paths they don't want search engines picking up, such as admin panels, staging areas and backups
+- Useful for recon because it can point you straight at the interesting paths
+
+---
+
+
 # luhack.uk/w3
+# notwordpress.luhack.uk
