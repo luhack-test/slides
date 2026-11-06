@@ -251,6 +251,6 @@ A single repeated number is enough.
 
 # luhack.uk/w5
 
-Put it into practice: [luhack.uk/w5](https://luhack.uk/w5)
+Put it into practice: [quiz.luhack.uk/w/code-crackers-2/](https://quiz.luhack.uk/w/code-crackers-2/)
 
 [GCHQ CyberChef](https://gchq.github.io/CyberChef/)
