@@ -1,9 +1,9 @@
 ---
-title: Scripting
+title: "Week 3: Scripting"
 layout: single
+author: "Luke Needle & Kristófer Antonsson"
+date: 2026-10-23
 ---
-
-[//]: # (this is a slide deck introducing the concept of scripting, in particular to do fuzzing, page traversal and scraping, bruteforce logins)
 
 # Scripting
 

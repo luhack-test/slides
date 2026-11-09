@@ -1,9 +1,10 @@
 ---
 title: "Week 5: Cryptography 2"
 layout: single
-author: "Luke Needle"
+author: "Kristófer Antonsson"
 date: 2026-11-06
 ---
+
 # Cryptography 2
 
 ## Going further: transposition, XOR, and breaking RSA
@@ -250,7 +251,5 @@ A single repeated number is enough.
 ---
 
 # luhack.uk/w5
-
-Put it into practice: [quiz.luhack.uk/w/code-crackers-2/](https://quiz.luhack.uk/w/code-crackers-2/)
 
 [GCHQ CyberChef](https://gchq.github.io/CyberChef/)
